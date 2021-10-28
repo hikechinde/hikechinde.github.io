@@ -36,13 +36,13 @@
      .custom-card-wrapper figure{
          width: 100%;
      }
-      .custom-card-wrapper article{
-        padding: 1rem;
-     }
+      
      .custom-card-wrapper article h1{
          font-family: 'Pacifico', cursive;
      }
+
      .custom-card-wrapper article p{
+         padding: 1rem;
          text-align: justify;
          font-family: 'cursive', Quicksand;
      }  
