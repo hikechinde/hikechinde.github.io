@@ -96,3 +96,9 @@
         transform: scale(0.75);
       }
     }
+
+  @media only screen and (max-width: 767px){
+   .custom-card-wrapper article p{
+     font-family: 'Quicksand', sans-serif;
+   } 
+}
