@@ -1,0 +1,181 @@
+
+ <!DOCTYPE html>
+ <html lang="en">
+ <head>
+     <meta charset="UTF-8">
+     <meta http-equiv="X-UA-Compatible" content="IE=edge">
+     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+     <title> Magic Boxes </title>
+     <style>
+         
+*{
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+.main-box-wrap{
+    padding: 15rem 3rem;
+    background: linear-gradient(90deg, rgba(2,0,36,1) 0%, rgba(28,28,45,1) 23%, rgba(18,115,104,1) 79%, rgba(14,148,126,1) 100%, rgba(20,78,102,1) 100%, rgba(8,158,194,1) 100%, rgba(0,212,255,1) 100%);
+    width: 100%;
+    height: 100%;
+    overflow: auto;
+    position: relative;
+    animation-name: moveMe;
+    animation-duration: 3s; 
+}
+
+
+.main-box{
+  display: flex;
+/*   justify-content: center; */
+  /* padding: 15rem 2rem; */ 
+ 
+}
+
+.main-box > div{
+  border: 1px solid #fff;
+  min-height: 450px;
+  min-width: 300px;
+  margin: 0 2rem;
+}
+
+.start-box{
+  transform: rotate(-10deg);
+}
+
+.start-box article,
+.mid-box article,
+.camp-box article,
+.end-box article {
+  position: absolute;
+  top: 50%;
+  color: #fff;
+  font-size: 2rem;
+}
+
+.mid-box{
+  transform: rotate(2deg) translate(0px, -180px)!important;
+}
+
+.camp-box{
+   transform: rotate(-5deg) translate(0px, 150px)!important;
+}
+
+.end-box{
+   transform: rotate(5deg) translate(1px, -100px)!important;
+}
+.start-box,
+.mid-box,
+.camp-box,
+.end-box{
+    opacity: 0.8;
+    transition: all 0.5s;
+}
+
+.start-box:hover,
+.mid-box:hover,
+.camp-box:hover,
+.end-box:hover{
+    opacity: 1;
+}
+
+/* .start-box:focus,
+.mid-box:focus,
+.camp-box:focus,
+.end-box:focus{
+    opacity: 1;
+} */
+
+@keyframes moveMe {
+  0%{
+    opacity: 0;
+  }
+  
+  35%{
+    opacity: 0.5;
+  }
+  
+  65%{
+    opacity: 0.7;
+  }
+  85%{
+    opacity: 0.8;
+  }
+  100%{
+    opacity: 1;
+  }
+}
+
+@media only screen and (max-width: 1650px) {
+    .main-box-wrap{
+        padding: 15rem 0;
+    }  
+    .main-box > div{
+        min-height: 150px;
+        min-width: 100px;
+        margin: 0;
+    }
+}
+
+     </style>
+ </head>
+ <body>
+
+<div class="main-box-wrap">
+<div class="main-box">
+    <div class="start-box">
+      <div class="start-box-wrapper">
+        <figure>
+          <img src="https://unsplash.it/405" style="width: 100%;">
+        </figure>
+       
+        <article>
+          
+         CONTENT HERE
+        </article>
+      </div>
+    </div>
+    
+    <div class="mid-box">
+         <div class="mid-box-wrapper">
+        <figure>
+          <img src="https://unsplash.it/408" style="width: 100%;">
+        </figure>
+       
+        <article>
+         CONTENT HERE
+           </article>
+    </div>
+      </div>
+    
+    <div class="camp-box">
+          <div class="camp-box-wrapper">
+        <figure>
+          <img src="https://unsplash.it/407" style="width: 100%;">
+        </figure>
+       
+        <article>
+         CONTENT HERE
+           </article>
+    </div>
+    </div>
+    
+    
+    
+    <div class="end-box">
+          <div class="end-box-wrapper">
+        <figure>
+          <img src="https://unsplash.it/401" style="width: 100%;">
+        </figure>
+       
+        <article>
+         CONTENT HERE
+           </article>
+    </div>
+    </div>
+      
+  </div>
+  </div>
+ </body>
+ </html>

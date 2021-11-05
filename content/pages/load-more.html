@@ -1,0 +1,100 @@
+
+ <!DOCTYPE html>
+ <html lang="en">
+ <head>
+     <meta charset="UTF-8">
+     <meta http-equiv="X-UA-Compatible" content="IE=edge">
+     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+     <title> Load More </title>
+
+ 
+
+<style>
+    .btn-load-more {
+  font-size: 14px;
+  color: #fff;
+  background-color: #00712c;
+  border: 0;
+  outline: 0;
+  padding: 10px 20px;
+  margin: 10px;
+  cursor: pointer;
+}
+
+.btn-load-more:hover { background-color: #00481c; }
+</style>
+ </head>
+ <body>
+
+    <div class="loadMore">
+        <div class="item">List Item Here</div>
+        <div class="item">List Item Here</div>
+        <div class="item">List Item Here</div>
+        <div class="item">List Item Here</div>
+        <div class="item">List Item Here</div>
+        <div class="item">List Item Here</div>
+        <div class="item">List Item Here</div>
+        <div class="item">List Item Here</div>
+        <div class="item">List Item Here</div>
+        <div class="item">List Item Here</div>
+        ...
+      </div>
+
+
+      <ul class="loadMore">
+        <li class="thumbnail">List Item Here</li>
+        <li class="thumbnail">List Item Here</li>
+        <li class="thumbnail">List Item Here</li>
+        <li class="thumbnail">List Item Here</li>
+        <li class="thumbnail">List Item Here</li>
+        <li class="thumbnail">List Item Here</li>
+        <li class="thumbnail">List Item Here</li>
+        <li class="thumbnail">List Item Here</li>
+        <li class="thumbnail">List Item Here</li>
+        <li class="thumbnail">List Item Here</li>
+        ...
+      </ul>
+     
+      <script>
+          $(document).ready(function() {
+          $('.loadMore').loadMoreResults();
+          })
+
+          $(document).ready(function() {
+  $('.loadMore').loadMoreResults({
+    displayedItems: 5
+  });
+})
+
+$(document).ready(function() {
+  $('.loadMore').loadMoreResults({
+    showItems: 5
+  });
+})
+
+
+$(document).ready(function() {
+  $('.loadMore').loadMoreResults({
+    button: {
+      'class': 'btn-load-more',
+      'text': 'Load More'
+    }
+  });
+})
+
+$('.loadMore').loadMoreResults({
+  tag: {
+    'name': 'li',
+    'class': 'thumbnail'
+  }
+});
+
+      </script>
+
+<script src="https://code.jquery.com/jquery-3.2.1.min.js" 
+integrity="sha384-xBuQ/xzmlsLoJpyjoggmTEz8OWUFM0/RC5BsqQBDX2v5cMvDHcMakNTNrHIW2I5f" 
+crossorigin="anonymous">
+</script>
+<script src="lib/js/loadMoreResults.js"></script>
+ </body>
+ </html>
