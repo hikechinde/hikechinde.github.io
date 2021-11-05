@@ -199,7 +199,7 @@
   font-size: 14px;
   /* background-color: #8b8b8b2a; */
   backdrop-filter: blur(15px);
-  border-radius: 10px;
+  /* border-radius: 10px; */
   transform: scale(1);
   color: #fff;
   overflow: hidden;
