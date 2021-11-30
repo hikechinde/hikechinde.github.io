@@ -29,7 +29,7 @@ function carousel() {
   slideIndex++;
   if (slideIndex > x.length) {slideIndex = 1}
   x[slideIndex-1].style.display = "block";
-  setTimeout(carousel, 5000); // Change image every 5 seconds
+  setTimeout(carousel, 6500); // Change image every 5 seconds
 }
 
 
@@ -46,7 +46,7 @@ function carousel1() {
   slideIndex1++;
   if (slideIndex1 > x.length) {slideIndex1 = 1}
   x[slideIndex1-1].style.display = "block";
-  setTimeout(carousel1, 5000); // Change image every 2 seconds
+  setTimeout(carousel1, 6500); // Change image every 2 seconds
 } 
 
 
@@ -64,7 +64,7 @@ function carousel2() {
   slideIndex2++;
   if (slideIndex2 > x.length) {slideIndex2 = 1}
   x[slideIndex2-1].style.display = "block";
-  setTimeout(carousel2, 5000); // Change image every 2 seconds
+  setTimeout(carousel2, 6500); // Change image every 2 seconds
 } 
 
 
@@ -81,5 +81,5 @@ function carousel3() {
   slideIndex3++;
   if (slideIndex3 > x.length) {slideIndex3 = 1}
   x[slideIndex3-1].style.display = "block";
-  setTimeout(carousel3, 5000); // Change image every 2 seconds
+  setTimeout(carousel3, 6500); // Change image every 2 seconds
 } 
