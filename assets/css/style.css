@@ -243,9 +243,6 @@ img {
         -ms-flex-pack: center;
             justify-content: center;
   }
-/*   .card-box {
-    max-width: 400px;
-  } */
   .feature1 {
     -webkit-transform: rotate(0deg) translate(0px, 0px);
             transform: rotate(0deg) translate(0px, 0px);
@@ -261,6 +258,10 @@ img {
   .feature4 {
     -webkit-transform: rotate(0deg) translate(0px, 0px);
             transform: rotate(0deg) translate(0px, 0px);
+  }
+  
+  .feature1, .feature2, .feature3, .feature4{
+        padding: 2rem 0;
   }
 }
 
