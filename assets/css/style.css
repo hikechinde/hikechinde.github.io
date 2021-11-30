@@ -247,20 +247,20 @@ img {
     max-width: 400px;
   }
   .feature1 {
-    -webkit-transform: rotate(-4deg) translate(0px, 0px);
-            transform: rotate(-4deg) translate(0px, 0px);
+    -webkit-transform: rotate(0deg) translate(0px, 0px);
+            transform: rotate(0deg) translate(0px, 0px);
   }
   .feature2 {
-    -webkit-transform: rotate(2deg) translate(0px, 80px);
-            transform: rotate(2deg) translate(0px, 80px);
+    -webkit-transform: rotate(0deg) translate(0px, 0px);
+            transform: rotate(0deg) translate(0px, 80px);
   }
   .feature3 {
-    -webkit-transform: rotate(-4deg) translate(0px, 150px);
-            transform: rotate(-4deg) translate(0px, 150px);
+    -webkit-transform: rotate(0deg) translate(0px, 0px);
+            transform: rotate(0deg) translate(0px, 0px);
   }
   .feature4 {
-    -webkit-transform: rotate(2deg) translate(0px, 200px);
-            transform: rotate(2deg) translate(0px, 200px);
+    -webkit-transform: rotate(0deg) translate(0px, 0px);
+            transform: rotate(0deg) translate(0px, 0px);
   }
 }
 
