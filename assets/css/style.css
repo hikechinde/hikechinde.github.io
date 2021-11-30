@@ -246,6 +246,10 @@ img {
         padding: 0;
   }
   
+  .card-box{
+       box-shadow: 5px 10px 5px #a3aeb9;
+  }
+  
   .main-container q{
        font-size: 1rem;
   }
