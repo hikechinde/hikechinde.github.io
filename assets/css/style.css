@@ -199,7 +199,7 @@ img {
 
 @media only screen and (min-width: 1750px) {
   .card-box {
-    max-width: 450px;
+/*     max-width: 450px; */
     min-height: 350px;
   }
 }
@@ -243,16 +243,16 @@ img {
         -ms-flex-pack: center;
             justify-content: center;
   }
-  .card-box {
+/*   .card-box {
     max-width: 400px;
-  }
+  } */
   .feature1 {
     -webkit-transform: rotate(0deg) translate(0px, 0px);
             transform: rotate(0deg) translate(0px, 0px);
   }
   .feature2 {
     -webkit-transform: rotate(0deg) translate(0px, 0px);
-            transform: rotate(0deg) translate(0px, 80px);
+            transform: rotate(0deg) translate(0px, 0px);
   }
   .feature3 {
     -webkit-transform: rotate(0deg) translate(0px, 0px);
