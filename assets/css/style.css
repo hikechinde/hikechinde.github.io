@@ -246,6 +246,12 @@ img {
         padding: 0;
   }
   
+  footer p{
+    font-size: initial;
+    color: green;
+    opacity: 0.8;
+  }
+  
   .card-box{
        box-shadow: 5px 10px 5px #a3aeb9;
   }
