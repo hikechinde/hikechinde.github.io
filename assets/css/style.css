@@ -236,6 +236,16 @@ img {
   }
 }
 
+/** Footer Part **/
+
+  .footer-p{
+    font-family: 'Quicksand', sans-serif;
+    text-align: center;"
+    font-size: initial;
+    color: green;
+    opacity: 0.8;
+  }
+  
 
 @media only screen and (max-width: 676px) {
   .feature-wrapper {
@@ -244,14 +254,6 @@ img {
             justify-content: center;
         margin-bottom: 2rem;
         padding: 0;
-  }
-  
-  .footer-p{
-    font-family: 'Quicksand', sans-serif;
-    text-align: center;"
-    font-size: initial;
-    color: green;
-    opacity: 0.8;
   }
   
   .card-box{
