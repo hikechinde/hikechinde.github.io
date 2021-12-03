@@ -246,7 +246,9 @@ img {
         padding: 0;
   }
   
-  footer p{
+  .footer-p{
+    font-family: 'Quicksand', sans-serif;
+    text-align: center;"
     font-size: initial;
     color: green;
     opacity: 0.8;
