@@ -10,7 +10,7 @@
 /* Menu Bar */
 
 header{
-/*   background: rgb(243, 243, 243); */
+  background: rgb(243, 243, 243);
   position: fixed;
   width: 100%;
   z-index: 2;
@@ -22,7 +22,7 @@ header{
 }
 
 .menu-bar{
-    color: yellow;
+    color: blue;
   padding: 0 0.5rem;
 }
 
@@ -388,7 +388,7 @@ aside.border {
   position: fixed;
   width: 100%;
   z-index: 4;
-  margin-top: 40rem;
+  margin-top: 100%;
   background: rgb(243, 243, 243);
   max-width: 1450px;
   padding: 0 1rem;
