@@ -18,6 +18,7 @@ header{
   justify-content: space-between;
   padding: 0.25rem;
   cursor: pointer;
+  color: rgb(73 167 106);
 }
 
 .menu-bar{
@@ -387,7 +388,7 @@ aside.border {
   position: fixed;
   width: 100%;
   z-index: 4;
-  margin-top: 15rem;
+  margin-top: 48rem;
   background: rgb(243, 243, 243);
   max-width: 1450px;
   padding: 0 1rem;
