@@ -22,7 +22,7 @@ header{
 }
 
 .menu-bar{
-    color: green;
+    color: black;
   padding: 0 0.5rem;
 }
 
@@ -388,7 +388,7 @@ aside.border {
   position: fixed;
   width: 100%;
   z-index: 4;
-  margin-top: 120%;
+  margin-top: 125%;
   background: rgb(243, 243, 243);
   max-width: 1450px;
   padding: 0 1rem;
