@@ -6,6 +6,26 @@
           box-sizing: border-box;
 }
 
+/* 1. Header Part Starts Here */
+/* Menu Bar */
+
+header{
+  background: rgb(243, 243, 243);
+  position: fixed;
+  width: 100%;
+  z-index: 2;
+  display: flex;
+  justify-content: space-between;
+  padding: 0.25rem;
+  cursor: pointer;
+}
+
+.menu-bar{
+  color: rgb(19, 80, 77);
+  padding: 0 0.5rem;
+}
+
+
 .box-wrapper {
   display: -webkit-box;
   display: -ms-flexbox;
@@ -240,7 +260,7 @@ img {
 
   .footer-p{
     font-family: 'Quicksand', sans-serif;
-    text-align: center;"
+    text-align: center;
     font-size: initial;
     color: green;
     opacity: 0.8;
@@ -254,6 +274,17 @@ img {
             justify-content: center;
         margin-bottom: 2rem;
         padding: 0;
+        /* background-image: url('../img/British Gurkha Memorial Park/Dpen\ at\ gurkha\ park.jpg'); */
+        background-repeat: no-repeat;
+        background-size: cover;
+        background-position: bottom;
+        min-height: 100vh;
+        background-attachment: fixed;
+  }
+
+  .feature-wrapper > .card-box{
+    width: 800px;
+    border: 1px solid red;
   }
   
   .card-box{
@@ -266,6 +297,7 @@ img {
   .feature1 {
     -webkit-transform: rotate(0deg) translate(0px, 0px);
             transform: rotate(0deg) translate(0px, 0px);
+            margin-top: 1.5rem;
   }
   .feature2 {
     -webkit-transform: rotate(0deg) translate(0px, 0px);
@@ -345,4 +377,39 @@ aside.border {
   text-decoration: none;
   color: #00ffd9;
 }
+
+/* Need Help */
+
+.need-help{
+  display: flex;
+  justify-content: space-between;
+  /* text-align: right; */
+  position: fixed;
+  width: 100%;
+  z-index: 4;
+  margin-top: 115.5%;
+  background: rgb(243, 243, 243);
+  max-width: 1450px;
+  padding: 0 1rem;
+}
+
+.need-help img{
+  width: 55px;
+  color: #fff;
+  padding: 0.5rem;
+  cursor: pointer;
+}
+
+
+/* Footer Part Starts */
+footer{
+  width: 100%;
+  background: rgb(0, 168, 168);
+  z-index: 3;
+}
+
+footer img{
+  width: 47px;
+}
 /*# sourceMappingURL=style.css.map */
+
