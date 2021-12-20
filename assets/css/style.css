@@ -389,12 +389,12 @@ aside.border {
   z-index: 4;
   margin-top: 100%;
   outline: none!important;
-  background: #dddddd;
+  background-color: #dddddd;
   padding:  0.5rem;
   width: 15%;
   border-radius: 50%;
   transition: all 0.2s ease-in-out;
-  box-shadow: 1px 1px 1px 1px #d5d5d5d5;
+  box-shadow: 1px 1px 5px 4px #040404a3;
 }
 
 .need-help:hover{
@@ -409,10 +409,10 @@ aside.border {
   color: #ffffff;
   cursor: pointer;
   border-radius: 50%;
-  background-color: #dddddd;
+ 
   padding: 0.5rem;
   outline: none!important;
-  box-shadow: 1px 1px 5px 4px #040404a3;
+
 }
 
 .need-help img:not(:first-child){
