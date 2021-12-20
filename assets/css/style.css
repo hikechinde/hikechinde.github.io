@@ -389,11 +389,12 @@ aside.border {
   z-index: 4;
   margin-top: 100%;
   outline: none!important;
-  background: #2d4945;
+  background: #dddddd;
   padding:  0.5rem;
   width: 15%;
   border-radius: 50%;
   transition: all 0.2s ease-in-out;
+  box-shadow: 1px 1px 1px 1px #d5d5d5d5;
 }
 
 .need-help:hover{
