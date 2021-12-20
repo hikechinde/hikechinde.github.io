@@ -387,7 +387,8 @@ aside.border {
   position: fixed;
   width: 100%;
   z-index: 4;
-  margin-top: 80%;
+  margin-top: 100%;
+  outline: none!important;
   background: rgb(11, 134, 128);
   padding:  0.5rem;
   width: 15%;
@@ -398,6 +399,7 @@ aside.border {
 .need-help:hover{
   width: 100%;
   border-radius: 0%;
+  outline: none!important;
  
 }
 
@@ -408,6 +410,7 @@ aside.border {
   border-radius: 50%;
   background-color: rgb(253, 253, 253);
   padding: 0.5rem;
+  outline: none!important;
 }
 
 .need-help img:not(:first-child){
