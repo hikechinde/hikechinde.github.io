@@ -22,7 +22,7 @@ header{
 }
 
 .menu-bar{
-  color: limegreen;
+  color: #2d4945;
   padding: 0 0.5rem;
 }
 
@@ -384,22 +384,46 @@ aside.border {
 .need-help{
   display: flex;
   justify-content: space-between;
-  /* text-align: right; */
   position: fixed;
   width: 100%;
   z-index: 4;
-  margin-top: 40rem;
-  background: rgb(243, 243, 243);
-  max-width: 1450px;
-  padding: 0 1rem;
+  margin-top: 80%;
+  background: rgb(11, 134, 128);
+  padding:  0.5rem;
+  width: 15%;
+  border-radius: 50%;
+  transition: all 0.2s ease-in-out;
+}
+
+.need-help:hover{
+  width: 100%;
+  border-radius: 0%;
+ 
 }
 
 .need-help img{
-  width: 50px;
-  color: #fff;
-  padding: 0.5rem;
+  width: 55px;
+  color: #ffffff;
   cursor: pointer;
+  border-radius: 50%;
+  background-color: rgb(253, 253, 253);
+  padding: 0.5rem;
 }
+
+.need-help img:not(:first-child){
+  padding: 0.5rem;
+}
+
+
+.need-help :not(:first-child){
+  opacity: 0;
+}
+
+
+.need-help:hover :not(:first-child){
+  opacity: 1;
+}
+
 
 
 /* Footer Part Starts */
@@ -409,8 +433,6 @@ footer{
   z-index: 3;
 }
 
-footer img{
-  width: 47px;
-}
+
 /*# sourceMappingURL=style.css.map */
 
