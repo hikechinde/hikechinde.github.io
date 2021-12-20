@@ -408,9 +408,10 @@ aside.border {
   color: #ffffff;
   cursor: pointer;
   border-radius: 50%;
-  background-color: rgb(253, 253, 253);
+  background-color: #dddddd;
   padding: 0.5rem;
   outline: none!important;
+  box-shadow: 1px 1px 5px 4px #040404a3;
 }
 
 .need-help img:not(:first-child){
