@@ -329,7 +329,7 @@ img {
             transform: rotate(0deg) translate(0px, 0px);
   }
   .feature1{
-    padding: 0rem 2rem 2rem 2rem;
+    padding: 0rem 0rem 2rem 0rem;
   }
   .feature2, .feature3, .feature4{
         padding: 2rem 0;
