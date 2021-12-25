@@ -21,11 +21,26 @@ header{
 
 }
 
+
+/* Menu Bar  */
 .menu-bar{
   color: #2d4945;
   padding: 0 0.5rem;
 }
 
+.menu-bar img{
+  width: 40px;
+  padding: 0.5rem;
+  max-width: 100%;
+}
+
+/* Main h2 */
+main .trip h2{
+  text-align: center;
+  padding: 1rem 0.5rem 0.5rem 0.5rem;
+  font-family: 'Quicksand';
+  font-size: 32px;
+}
 
 .box-wrapper {
   display: -webkit-box;
@@ -292,9 +307,10 @@ img {
        box-shadow: 5px 10px 5px #a3aeb9;
   }
   
-  .main-container q{
-       font-size: 1rem;
+  .main q{
+    font-size: initial;
   }
+
   .feature1 {
     -webkit-transform: rotate(0deg) translate(0px, 0px);
             transform: rotate(0deg) translate(0px, 0px);
@@ -312,11 +328,14 @@ img {
     -webkit-transform: rotate(0deg) translate(0px, 0px);
             transform: rotate(0deg) translate(0px, 0px);
   }
-  
-  .feature1, .feature2, .feature3, .feature4{
+  .feature1{
+    padding: 0rem 2rem 2rem 2rem;
+  }
+  .feature2, .feature3, .feature4{
         padding: 2rem 0;
   }
 }
+
 
 .card-box figure {
   /* position: absolute; */
@@ -341,6 +360,7 @@ img {
   overflow: hidden;
   -webkit-transition: all 0.5s;
   transition: all 0.5s;
+  font-weight: lighter;
 }
 
 .content-box article {
@@ -348,7 +368,7 @@ img {
 }
 
 .content-box article p {
-  font-size: 0.9rem;
+  font-weight: lighter;
 }
 
 .content-box:hover {
@@ -389,30 +409,29 @@ aside.border {
   z-index: 4;
   margin-top: 100%;
   outline: none!important;
-  background-color: #dddddd;
+  background-color: #ffffff;
   padding:  0.5rem;
   width: 15%;
   border-radius: 50%;
-  transition: all 0.2s ease-in-out;
-  box-shadow: 1px 1px 5px 4px #040404a3;
+  transition: all 0.5s ease-in-out;
+  box-shadow: 1px 1px 5px 4px #494949a3;
+  left: 2%;
 }
 
 .need-help:hover{
-  width: 100%;
-  border-radius: 0%;
+  width: 95%;
+  border-radius: 5px;
   outline: none!important;
  
 }
 
 .need-help img{
-  width: 55px;
+  width: 70px;
   color: #ffffff;
   cursor: pointer;
   border-radius: 50%;
- 
   padding: 0.5rem;
-  outline: none!important;
-
+  background-color: #cac9c981;
 }
 
 .need-help img:not(:first-child){
@@ -429,13 +448,45 @@ aside.border {
   opacity: 1;
 }
 
+/* Video Part */
+.video{
+  width:100%; 
+  /* padding: 1rem 0.5rem 0 0.5rem;
+  background-color: red; */
+  padding: 4rem 0 0.2rem 0.2rem;
+}
 
+.feature0{
+  text-align: center;
+}
+
+@media only screen and (min-width: 767px) {
+  .video{
+    width: auto;
+  }
+  
+}
 
 /* Footer Part Starts */
 footer{
   width: 100%;
-  background: rgb(0, 168, 168);
+  background: rgb(36, 85, 77);
   z-index: 3;
+  text-align: center;
+  font-family: 'Quicksand', sans-serif;
+  color: rgb(255, 255, 255);
+}
+
+footer a{
+  color: #fff;
+}
+
+p.footer-p{
+  font-family: 'Quicksand', sans-serif;
+  text-align: center;
+  font-size: 14px;
+  color: green;
+  opacity: 0.8;
 }
 
 
