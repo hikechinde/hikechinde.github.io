@@ -4,13 +4,11 @@
   margin: 0;
   -webkit-box-sizing: border-box;
           box-sizing: border-box;
-   -webkit-animation: visibleMe 2s;
-          animation: visibleMe 2s;
+  
 }
 
 /* 1. Header Part Starts Here */
 /* Menu Bar */
-
 header{
   background: rgb(243, 243, 243);
   position: fixed;
@@ -23,6 +21,10 @@ header{
 
 }
 
+main{
+   -webkit-animation: visibleMe 2s;
+          animation: visibleMe 2s;
+}
 
 /* Menu Bar  */
 .menu-bar{
