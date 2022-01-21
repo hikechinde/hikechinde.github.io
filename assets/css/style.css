@@ -619,6 +619,12 @@ p.footer-p{
   opacity: 0.8;
 }
 
+@media only screen and (min-width: 1024px){
+  body{
+    display: none;
+    content: "Sorry Site is only available for mobile version at the moment";
+  }
+}
 
 /*# sourceMappingURL=style.css.map */
 
